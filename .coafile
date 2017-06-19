@@ -1,4 +1,4 @@
 [Default]
 bears = SpaceConsistencyBear
-files = src/*.c
+files = app/**/*.scala
 use_spaces = yeah
