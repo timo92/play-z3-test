@@ -1,0 +1,4 @@
+[Default]
+bears = SpaceConsistencyBear
+files = src/*.c
+use_spaces = yeah
