@@ -20,8 +20,8 @@ object AsyncController extends Controller {
   }
 
   private def simpleZ3Check(): Future[String] = Future {
-    val config = new util.HashMap[String, String]()
-    config.put("model", "true")
+    val config = new util.HashMap[String, String]()  
+    config.put("model", "true")  
     config.put("unsat_core", "true")
     val context = new Context(config)
     val a = 4
